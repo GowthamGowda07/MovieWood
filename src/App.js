@@ -7,6 +7,7 @@ import Detail from "./components/Detail";
 import { createContext} from "react";
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Logout from "./components/Logout";
 
 const Appstate = createContext();
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/detail/:id" element = {<Detail/>} />
         <Route path="/login" element = {<Login/>} />
         <Route path="/signup" element = {<Signup/>} />
+        <Route path="/logout" element = {<Logout/>} />
       </Routes>
       
     </div>
