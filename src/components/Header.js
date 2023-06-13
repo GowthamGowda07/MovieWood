@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
       
-      <div className='sticky z-10 header top-0 text-3xl flex justify-between items-center text-red-500  text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl
+      <div className='sticky z-10 header top-0  flex justify-between items-center text-red-500  text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl
       font-bold p-3 border-b-2 border-gray-500'>
         <Link to = {'/'}><span className=''>Movie<span className='text-white'>Wood</span></span></Link>
         {useAppstate.login ? <div className='flex'>
