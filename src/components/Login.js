@@ -34,7 +34,7 @@ const Login = () => {
         useAppstate.setLogin(true);
         useAppstate.setUsername(_data.name);      // doubt
         swal({
-          title: "Logged In",
+          title:`Welcome ${_data.name}`,
           icon: "success",
           buttons: false,
           timer: 3000

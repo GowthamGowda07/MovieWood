@@ -11,9 +11,9 @@ const Header = () => {
 
     return (
       
-      <div className='sticky z-10 header top-0 text-3xl flex justify-between items-center text-red-500 
+      <div className='sticky z-10 header top-0 text-3xl flex justify-between items-center text-red-500  text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl
       font-bold p-3 border-b-2 border-gray-500'>
-        <Link to = {'/'}><span>Movie<span className='text-white'>Wood</span></span></Link>
+        <Link to = {'/'}><span className=''>Movie<span className='text-white'>Wood</span></span></Link>
         {useAppstate.login ? <div className='flex'>
          <Link to={'/addmovie'}> <h1 className='text-lg cursor-pointer flex items-center px-3'>
             <Button><AddIcon className='mr-1' color='secondary' /> <span className='text-white'>Add New</span></Button>
