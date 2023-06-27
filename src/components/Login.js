@@ -90,6 +90,7 @@ const Login = () => {
           </label>
           <input
             id="message"
+            type = "password"
             name="message"
             value={form.password}
             onChange={(e) => setForm({ ...form, password: e.target.value })}
